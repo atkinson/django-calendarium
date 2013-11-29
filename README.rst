@@ -1,3 +1,5 @@
+NB: This version has clean migrations and works on MySQL with innodb
+
 Django Calendarium
 ==================
 

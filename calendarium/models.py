@@ -163,7 +163,7 @@ class Event(EventModelMixin):
     )
 
     title = models.CharField(
-        max_length=256,
+        max_length=254,
         verbose_name=_('Title'),
     )
 
@@ -284,12 +284,12 @@ class EventCategory(models.Model):
 
     """
     name = models.CharField(
-        max_length=256,
+        max_length=254,
         verbose_name=_('Name'),
     )
 
     slug = models.SlugField(
-        max_length=256,
+        max_length=254,
         verbose_name=_('Slug'),
         blank=True,
     )
@@ -394,7 +394,7 @@ class Occurrence(EventModelMixin):
     )
 
     title = models.CharField(
-        max_length=256,
+        max_length=254,
         verbose_name=_('Title'),
         blank=True,
     )
